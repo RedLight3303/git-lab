@@ -5,24 +5,24 @@
 //answer 5. says new file README.md in green, modified: README.md in red, and answers.md in red.
 // answer 6. new file README.MD and answers.md in green, modified: README.md in red
 // answer 7. On branch master
+//
+//No commits yet
+//
+//Changes to be committed:
+//  (use "git rm --cached <file>..." to unstage)
+//	new file:   README.md
+//	new file:   answers.md
 
-No commits yet
+//Changes not staged for commit:
+//  (use "git add <file>..." to update what will be committed)
+//  (use "git restore <file>..." to discard changes in working directory)
+//	modified:   README.md
 
-Changes to be committed:
-  (use "git rm --cached <file>..." to unstage)
-	new file:   README.md
-	new file:   answers.md
-
-Changes not staged for commit:
-  (use "git add <file>..." to update what will be committed)
-  (use "git restore <file>..." to discard changes in working directory)
-	modified:   README.md
-
-jvu@odd33:~/git-lab$ git commit -m "Initial commit"
-[master (root-commit) 406451e] Initial commit
- 2 files changed, 0 insertions(+), 0 deletions(-)
- create mode 100644 README.md
- create mode 100644 answers.md
+//jvu@odd33:~/git-lab$ git commit -m "Initial commit"
+//[master (root-commit) 406451e] Initial commit
+// 2 files changed, 0 insertions(+), 0 deletions(-)
+// create mode 100644 README.md
+// create mode 100644 answers.md
 jvu@odd33:~/git-lab$ git status
 On branch master
 Changes not staged for commit:
